@@ -56,9 +56,11 @@ button {
     border: 0.5px solid black;
 }
 
-button:hover, section div:hover {
+section button:hover, section div:hover {
     background: rgba(163, 163, 163, 0.2);
+    /* border: 1px solid black; */
     transition: 0.5s linear;
+    text-decoration: none;
 }
 
 a {
@@ -80,7 +82,7 @@ img {
 }
 
 .interruptTest {
-    margin-top: -4.5%;
+    margin-top: -3%;
     margin-right: -2%;
     border: 1px solid rgba(163, 163, 163, 0);
     background: rgba(163, 163, 163, 0);
@@ -89,7 +91,6 @@ img {
 }
 
 .interruptTest a:hover, button:hover {
-    border: 1px solid rgba(163, 163, 163, 0);
     background: rgba(163, 163, 163, 0);
     text-decoration: none;
 }
