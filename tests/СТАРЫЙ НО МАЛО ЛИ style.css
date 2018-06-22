@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+.equal, .equal > div[class*='col-'] {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+body {
+    background: url(./backPushkin.jpg!d) no-repeat;
+    background-size: cover;
+}
+
+nav {
+    color: white;
+    font-size: 200%;
+    font-family: 'Amatic SC', cursive;
+    margin-bottom: 2%;
+}
+
+h4 {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+}
+
+.mainP {
+    margin-top: 10%;    
+    color: white;
+    font-size: 250%;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+}
+
+.mainP h1 {
+    font-size: 250%;
+}
+
+.mainP button {
+    margin-top: 2%;
+    padding: 1%;
+    background: rgba(255, 255, 255, 0);
+    border: 1px solid white;
+}
+
+.mainP button:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transition: 0.5s linear;
+}
+
+nav a:visited, a:active {
+    background-color: black !important;
+    color: white;
+}
+
+nav .aliveA:hover {
+    background: rgba(255, 255, 255, 0.1) !important;
+    transition: 0.5s linear;
+}
+
+#myModal {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 200%;
+}
+
+#myModal2 {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 200%;
+}
+
+#myModal button {
+    font-size: 120%;
+    border: 1px solid black;
+}
+
+#myModal2 button {
+    font-size: 120%;
+    border: 1px solid black;
+}
+
+#myModal button:hover {
+    background: rgba(146, 146, 146, 0.3);
+    transition: 0.5s linear;
+}
+
+#myModal2 button:hover {
+    background: rgba(146, 146, 146, 0.3);
+    transition: 0.5s linear;
+}
+
+h4 {
+    font-size: 150%;
+}
+
+.modal button {
+    margin-top: 2%;
+    padding: 1%;
+    background: rgba(255, 255, 255, 0);
+    border: 1px solid white;
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.thumbnail button {
+    margin-top: 2%;
+    padding: 1%;
+    background: rgba(109, 94, 94, 0);
+    border: 1px solid black;
+}
+
+.thumbnail a {
+    color: black;
+    font-family: 'Amatic SC', cursive;
+    font-size: 200%;
+}
+
+.thumbnail {
+    /* max-width: 450px; */
+    text-align: center;
+}
+
+.flex_container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.flex_block {
+    background: white;
+    min-width: 250px;
+    flex-basis: 32%;
+    /* margin: 1%; */
+}
+
+.flex_container p, h3 {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 200%;
+}
+
+.flex_container h3 {
+    font-weight: bold;
+    font-size: 250%;
+}
