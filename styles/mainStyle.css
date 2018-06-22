@@ -130,7 +130,8 @@ h4 {
     margin-right: 0px;
 }
 
-.thumbnail button {
+.thumbnail a {
+    display: block;
     margin-top: 2%;
     padding: 1%;
     background: rgba(109, 94, 94, 0);
